@@ -38,7 +38,7 @@ const NewTask = () => {
         <h5 className="fieldset-title fs-4"> Tags</h5>
         <Form.Select aria-label="Default select example" className="bord">
           <option className="">
-            {/* <span>URGENT</span> <span>IMPORTANT</span> */}
+            <span>URGENT</span> <span>IMPORTANT</span>
           </option>
           <option value="1">urgent</option>
           <option value="2">important</option>

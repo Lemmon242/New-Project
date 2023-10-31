@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useMatch } from 'react-router-dom';
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/logo.svg'
 import EYE from '../assets/Ellipse 1.svg'
 
 
