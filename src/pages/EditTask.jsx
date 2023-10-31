@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/newTask.css'
+import '../styles/NewTask.css'
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
 import Arrow from '../assets/eva_arrow-ios-back-fill.svg'
