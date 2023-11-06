@@ -1,6 +1,7 @@
 import React from "react";
 import Group from "../assets/Component 1.svg";
 import "../styles/Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           <h1>Manage your Tasks on</h1>
           <h1 style={{ color: "#974FD0" }}>TaskDuty</h1>
           <div>
-            <p className="text-secondary fs-3 w-100 mt-4">
+            <p className="text-secondary fs-4 w-100 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
               tellus, sapien, morbi ante nunc euismod ac felis ac. Massa et, at
               platea tempus duis non eget. Hendrerit tortor fermentum bibendum
@@ -18,12 +19,14 @@ const Hero = () => {
             </p>
           </div>
           <div className="style">
-            <button
+          <Link to='/AllTask' className='text-decoration-none text-dark'>
+          <button
               style={{ backgroundColor: "#974FD0" }}
               className="btn btn text-light btn-lg"
             >
               Go to My Task
             </button>
+          </Link>
           </div>
         </div>
         <div className="style col-lg-4">
